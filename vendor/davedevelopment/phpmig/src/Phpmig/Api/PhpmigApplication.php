@@ -146,7 +146,7 @@ class PhpmigApplication
             }
     
             $version = $matches[0];
-    
+
             if (isset($versions[$version])) {
                 throw new \InvalidArgumentException(sprintf('Duplicate migration, "%s" has the same version as "%s"', $path, $versions[$version]->getName()));
             }

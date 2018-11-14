@@ -10,9 +10,11 @@ EduSoho是杭州阔知网络科技有限公司推出的开源、免费的互联�
 
 ## 安装使用
 
-* 安装教程： [http://www.qiqiuyu.com/course/explore/install](http://www.qiqiuyu.com/course/explore/install)
-* 官方QQ群：280645300
-* **安装注意事项** ：在安装EduSoho时，请将您的程序运行根目录配置到web下，否则会有课程视频、资料泄漏等安全问题。即正确访问您的EduSoho的方式是： http://www.youdomain.com/ 。 如是 http://www.yourdomain.com/web/ ，请按照官网教程修改您的配置。
+* 安装步骤 1
+* 安装步骤 2 写入数据库连接配置， 清空数据库，执行迁移指令： .\vendor\davedevelopment\phpmig\bin\phpmig.bat migrate
+* 安装步骤 3 生成用户名
+AccessKey: pPv8o2g92HqGsrrAY2UsL7MjLWdMOulI
+SecretKey: RvLFv1RiyC1XeICLOiBskTg4iffgRlsZ
 
 ## 版权协议
 

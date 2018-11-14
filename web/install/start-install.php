@@ -1,5 +1,5 @@
 <?php
-
+set_time_limit(0);
 date_default_timezone_set('Asia/Shanghai');
 // 尚存在问题：
 // 1.vendor不存在导致升级检测失败报错
@@ -223,7 +223,7 @@ function install_step5($init_data = 0)
 {
     try {
         $filesystem = new Filesystem();
-        $filesystem->remove(__DIR__);
+//        $filesystem->remove(__DIR__);
     } catch (\Exception $e) {
     }
 

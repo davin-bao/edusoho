@@ -16,7 +16,7 @@ class InitWebsiteCommand extends BaseCommand
     private $db_host = '127.0.0.1';
     private $db_port = '3306';
     private $db_user = 'root';
-    private $db_password = 'root';
+    private $db_password = '123456';
     private $db_name = 'edusoho';
 
     protected function configure()
