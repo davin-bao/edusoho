@@ -212,6 +212,7 @@ abstract class AbstractCommand extends Command
 
             $version = $matches[0];
             if (isset($versions[$version])) {
+                continue;
                 throw new \InvalidArgumentException(sprintf('Duplicate migration, "%s" has the same version as "%s"', $path, $versions[$version]->getName()));
             }
 
